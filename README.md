@@ -9,6 +9,11 @@ In this deliverable, created a Python script to visualize the weather of over 50
 ![image](https://github.com/user-attachments/assets/5ddc107a-9239-495d-b2f2-a555b54ff1bd)
 ![image](https://github.com/user-attachments/assets/d622a224-0c75-4728-9d91-918f7775a012)
 
+# 1. Visualizing Weather Variables: 
+Using the OpenWeatherMap API, you retrieved weather data and created scatter plots to examine the relationships between latitude and various weather variables, including temperature, humidity, cloudiness, and wind speed.
+
+# 2. Computing Linear Regression: 
+For each weather variable against latitude, you computed linear regression to analyze trends. The analysis was divided into Northern Hemisphere (≥0° latitude) and Southern Hemisphere (<0° latitude) to identify any distinct patterns. Scatter plots were created with regression lines, model formulas, and R² values to illustrate these relationships.
 
 ## Requirement 1: Created Plots to Showcase the Relationship Between Weather Variables and Latitude
 To fulfill the first requirement, 
@@ -67,8 +72,21 @@ After each pair of plots,  explained what the linear regression was modeling, de
 
 # Part 2: VacationPy
 
-### In this deliverable, weather data skills were used to plan future vacations. Additionally, Jupyter notebooks, the geoViews Python library, and the Geoapify API were utilized.
-  
+### In this deliverable, weather data skills were used to plan future vacations. Additionally, Jupyter notebooks, the geoViews Python library, and the Geoapify API were utilized. applied weather data insights to plan vacations using map visualizations.
+
+### tasks included:
+
+## 1. Creating Map Visualizations: 
+Using the geoViews Python library and the Geoapify API, you created a map that displayed points for each city, with point size representing humidity levels.
+
+## 2. Finding Ideal Vacation Locations: 
+By filtering the data to meet specific weather criteria (e.g., temperatures between 21-27°C, wind speeds less than 4.5 m/s, and zero cloudiness), you identified cities with ideal weather conditions.
+
+## 3. Locating Hotels: 
+A new DataFrame, hotel_df, was created to store city details and humidity. The Geoapify API was used to locate hotels within 10,000 meters of each city’s coordinates, with additional information on hotel names and countries added to the map’s hover messages.
+
+### This project provided a comprehensive approach to analyzing weather data and applying it to practical vacation planning scenarios.
+
 The code needed to import the required libraries and load the CSV file containing the weather and coordinates data for each city created in Part 1 was provided to help get started.
 ![image](https://github.com/user-attachments/assets/0172b20d-890a-4788-8739-60a88f9b936c)
 
@@ -100,3 +118,20 @@ To complete this part of the assignment, the VacationPy.ipynb starter code was o
     
 - The hotel name and the country were added as additional information in the hover message for each city on the map.
 -   ![image](https://github.com/user-attachments/assets/775981dd-09c2-4f25-80a4-dae65165ca58)
+
+  # Project Setup and Configuration
+ 
+### Organized Files: In local repository, created a new directory for this assignment, named WeatherPy. Inside this directory, you placed the following files from the 
+### provided starter code ZIP file: api_keys.py, WeatherPy.ipynb, and VacationPy.ipynb.
+### Added a .gitignore File: To prevent sensitive files like api_keys.py from being shared publicly, you created a .gitignore file in your repository. This file included:arduino
+
+# Adding config.py file.
+### api_keys.py (ADDED to git.ignore)
+Committed Your Changes: used the command git status to review untracked files. added the .gitignore, WeatherPy.ipynb, and VacationPy.ipynb files using git add, then committed and pushed changes. ensured that only WeatherPy.ipynb and VacationPy.ipynb were visible on GitHub, keeping api_keys.py private.
+
+
+
+
+
+
+
