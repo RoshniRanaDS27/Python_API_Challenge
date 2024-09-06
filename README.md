@@ -1,5 +1,7 @@
-# Nearest Hotel availability & Recommendation system 
-Filters Available For Hotels Recommendation as per location, Required City Range, weather requirements, Temp inputs and avaibility for Future Holiday and Vacation destination Trips In Required City
+# Nearest Hotel availability & Recommendation system (Python API)
+
+Filters Available For Hotels Recommendation as per location, Required City Range, weather requirements, Temp inputs and avaibility for Future Holiday and Vacation destination Trips In Required City  
+
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fbc52262225969.5a89af053bacd.gif" alt="Project 14">
 ### This activity was broken down into two deliverables, WeatherPy and VacationPy.
 
