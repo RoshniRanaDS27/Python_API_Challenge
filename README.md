@@ -1,4 +1,4 @@
-# Nearest Hotel availability & Recommendation system (Python API)
+# Nearest Hotel availability & Recommendation system (Python API) 
 
 Filters Available For Hotels Recommendation as per location, Required City Range, weather requirements, Temp inputs and avaibility for Future Holiday and Vacation destination Trips In Required City  
 
